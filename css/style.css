@@ -1686,6 +1686,28 @@ img.product-card__photo {
   color: var(--color-accent);
 }
 
+/* Реквизиты компании в подвале */
+.footer__requisites {
+  padding-block: 20px 0;
+  color: var(--color-dark-muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.footer__requisites-name {
+  margin: 0 0 6px;
+  color: var(--color-dark-heading);
+  font-weight: 600;
+}
+
+.footer__requisites-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 2px;
+}
+
 /* ============================================================
    Media queries (min-width)
    ============================================================ */
