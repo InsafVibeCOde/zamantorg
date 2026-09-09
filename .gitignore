@@ -1,0 +1,43 @@
+# Зависимости и инструменты разработки (не часть сайта)
+node_modules/
+.opencode/
+.playwright-mcp/
+
+# Рабочие скриншоты в корне (временные артефакты от разработки).
+# Исключаем точечно, чтобы не задеть картинки сайта в img/.
+/about-map-smooth.png
+/about-map.png
+/card-hover.png
+/desktop-scrolled.png
+/desktop-top.png
+/fix-top-catalog.png
+/fix-top-index.png
+/hero-desktop.png
+/hero-dots.png
+/hero-final.png
+/hero-mobile.png
+/hero-rotate-desktop.png
+/hero-rotate-mobile.png
+/index-clean.png
+/logo-new-header.png
+/mobile-burger-open.png
+/mobile-header-menu.png
+/mobile-header-text-logo.png
+/mobile-header.png
+/mobile-scrolled.png
+/pill-catalog.png
+/pill-mobile-menu.png
+/pill-scrolled.png
+/tunnel-desktop.png
+/tunnel-label.png
+/tunnel-mobile.png
+/yard-left.png
+/yard-mobile.png
+/yard-right.png
+
+# Случайный битый файл
+/System.Drawing.Drawing2D.GraphicsPath
+
+# Локальные/системные файлы
+.DS_Store
+Thumbs.db
