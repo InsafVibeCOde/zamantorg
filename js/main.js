@@ -151,7 +151,7 @@ const requestForm = document.querySelector('.request__form');
 
 if (requestForm) {
   const requestNote = requestForm.querySelector('.request__note');
-  const REQUEST_EMAIL = 'info@zamantorg.ru';
+  const REQUEST_EMAIL = 'zamantorgkzn@mail.ru';
   const REQUEST_MAX_URL = 'https://max.ru/zamantorg';
 
   requestForm.addEventListener('submit', (event) => {

@@ -1188,7 +1188,7 @@ html.js .catalog .category:nth-of-type(5) {
    стеклянная основа с тонкой рамкой, меньший размер, плавная реакция */
 .request__button {
   justify-self: start;
-  cursor: default;
+  cursor: pointer;
   padding: 10px 20px;
   font-size: 0.92rem;
   font-weight: 600;
