@@ -951,19 +951,6 @@ html.js .catalog .category:nth-of-type(5) {
   align-items: center;
 }
 
-.about__photo {
-  aspect-ratio: 4 / 3;
-  border: 1px dashed var(--color-line);
-  border-radius: 16px;
-  background-image: repeating-linear-gradient(
-    -45deg,
-    transparent,
-    transparent 12px,
-    var(--color-shadow) 12px,
-    var(--color-shadow) 24px
-  );
-}
-
 .about__text p {
   margin-bottom: 16px;
 }
@@ -1790,8 +1777,12 @@ img.product-card__photo {
   }
 
   .about__grid {
-    grid-template-columns: 5fr 7fr;
-    gap: 48px;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about__text {
+    max-width: 72ch;
   }
 
   .contacts__grid {
